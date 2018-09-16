@@ -4,7 +4,7 @@
 
 Out of the box, several of the mouse's buttons are internally deactivated and will not raise any events until they are configured.
 
-When sent by the first-party firmware, the button configuration packet is 578 bytes long, though only the first 87 bytes seem to be carry information.
+When sent by the first-party software, the button configuration packet is 578 bytes long, though only the first 87 bytes seem to be carry information.
 
 The packet starts with the identifier { 0x31, 0x00 }. Following these two bytes, each button's configuartion is layed out in runs of five bytes as follows:
 
